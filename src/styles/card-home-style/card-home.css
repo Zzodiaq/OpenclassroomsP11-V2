@@ -1,0 +1,23 @@
+.bod {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+.bod .rond {
+  border: 10px solid #00bc77;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.bod .rond img {
+  width: 6rem;
+  height: 6rem;
+}
+.bod h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+/*# sourceMappingURL=card-home.css.map */

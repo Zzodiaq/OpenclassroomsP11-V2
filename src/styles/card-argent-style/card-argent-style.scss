@@ -1,0 +1,73 @@
+
+
+.cardArgentBody {
+    p {
+        margin: 5px;
+    }
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    min-width: 1500px;
+    .cardArgentLeft {
+        .account-amount {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+          }
+          
+          .account-amount-description {
+            margin: 0;
+          }
+          
+          .account-title {
+            margin: 0;
+            padding: 0;
+            font-size: 1rem;
+            font-weight: normal;
+          }
+    }
+    .cardArgentRight {
+        display: flex;
+        align-items: center;
+        height: fit-content;
+        .transaction-button {
+            cursor: pointer;
+            width: 100%;
+            padding: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-color: #00bc77;
+            background-color: #00bc77;
+            color: #fff;
+          }
+    }
+}
+
+
+@media (max-width: 1550px) {
+  .cardArgentBody {
+    min-width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cardArgentBody {
+    min-width: 200px;
+    .cardArgentLeft {
+      .account-amount {
+          font-size: 1rem;
+        }
+    }
+    .cardArgentRight {
+      .transaction-button {
+          cursor: pointer;
+          width: 100%;
+          padding: 2px;
+        }
+  }
+  }
+}

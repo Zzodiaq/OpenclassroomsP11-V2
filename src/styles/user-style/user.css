@@ -1,0 +1,85 @@
+.userContainer {
+  background-color: #12002b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userContainer .userNameEdit {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.userContainer .userNameEdit h1 {
+  color: white;
+}
+.userContainer .userNameEdit .edit-button {
+  cursor: pointer;
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+}
+.userContainer .userNameEditOn {
+  margin-top: 1rem;
+  width: 300px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  gap: 1rem;
+}
+.userContainer .userNameEditOn h1 {
+  margin: 0;
+}
+.userContainer .userNameEditOn .editNameInput {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.userContainer .userNameEditOn .editNameInput input {
+  height: 2rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+  outline: none;
+}
+.userContainer .userNameEditOn .btnEdit {
+  display: flex;
+  gap: 1rem;
+}
+.userContainer .userNameEditOn .btnEdit button {
+  cursor: pointer;
+  border-color: #00bc77;
+  border-radius: 10px;
+  background-color: #00bc77;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  width: 150px;
+}
+.userContainer .cardArgent {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  width: fit-content;
+}
+
+@media (max-width: 370px) {
+  .userContainer .userNameEditOn {
+    width: 250px;
+    padding: 0.5rem;
+  }
+  .userContainer .userNameEditOn .btnEdit button {
+    padding: 10px;
+    width: 100px;
+  }
+}
+
+/*# sourceMappingURL=user.css.map */
